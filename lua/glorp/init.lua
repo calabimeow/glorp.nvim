@@ -73,11 +73,8 @@ local groups =
     ["@keyword.operator"] = {fg = cyan},
 }
 
-local function apply()
-    for group, opts in pairs(groups) do
-        vim.api.nvim_set_hl(0, group, opts)
-    end
+for group, opts in pairs(groups) do
+    vim.api.nvim_set_hl(0, group, opts)
 end
-
-apply()
+    
 vim.g.colors_name = "glorp"
