@@ -54,7 +54,6 @@ local groups =
 
     ["@variable.member"] = {fg = white},
     ["@punctuation.bracket"] = {fg = green},
-    ["@type.builtin"] = {fg = green},
     ["@_parent"] = {fg = green},
     ["@lsp.type.property"] = {fg = green},
     ["@constant.builtin"] = {fg = green},
